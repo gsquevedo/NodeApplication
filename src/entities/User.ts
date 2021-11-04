@@ -1,4 +1,4 @@
-import {Entity, PrimaryColumn, Column, CreateColumnDate, UpdateColumnDate} from "typeorm"
+import {Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn} from "typeorm"
 import { v4 as uuid} from "uuid"
 
 @Entity("users")
@@ -11,9 +11,9 @@ class User {
     email: string
     @Column()
     admin: boolean
-    @CreateColumnDate()
+    @CreateDateColumn()
     created_at: Date
-    @UpdateColumnDate()
+    @UpdateDateColumn()
     updated_at: Date
 
     constructor(){
