@@ -12,6 +12,12 @@
 - Typescript
 - Nodejs
 - Express
-- JWT
+- JSONWebToken
 - Sqlite
 
+## Como compilar
+- Clone o repositório
+- Execute ``yarn`` 
+- Execute ``yarn typeorm migration:run``
+- Execute ``yarn dev``
+- A aplicação está disponível ``http://localhost:3000``
