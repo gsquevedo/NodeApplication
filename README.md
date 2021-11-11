@@ -20,4 +20,4 @@
 - Execute ``yarn`` 
 - Execute ``yarn typeorm migration:run``
 - Execute ``yarn dev``
-- A aplicação está disponível ``http://localhost:3000``
+- A aplicação está disponível em ``http://localhost:3000``
